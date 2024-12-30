@@ -52,7 +52,7 @@
             compatible = "zmk,behavior-sensor-rotate";
             label = "V_SCROLL";
             #sensor-binding-cells = <0>;
-            bindings = <&mwh SCROLL_VERTICAL (-10)>, <&mwh SCROLL_VERTICAL 10>;
+            bindings = <&mwh SCROLL_UP>, <&mwh SCROLL_DOWN>;
         };
     };  
 
