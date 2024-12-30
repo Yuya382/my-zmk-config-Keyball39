@@ -48,13 +48,6 @@
 
             mods = <(MOD_LSFT|MOD_RSFT)>;
         };
-
-       v_scroll: v_scroll {
-            compatible = "zmk,behavior-sensor-rotate";
-            label = "V_SCROLL";
-            #sensor-binding-cells = <2>;    // <0> から <2> に変更
-            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
-        };
     };  
 
     macros {
@@ -105,7 +98,7 @@
             label = "N&M";
             bindings = <
 &kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4     &kp NUMBER_5                           &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &v_scroll                                  &mkp MB4      &mkp LCLK     &none         &mkp RCLK     &mkp MCLK
+&kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &none                                  &mkp MB4      &mkp LCLK     &none         &mkp RCLK     &mkp MCLK
 &none           &none           &none         &none            &none                                  &mkp MB5      &none         &trans        &trans        &none
 &trans          &trans          &trans        &trans           &trans        &trans  &kp RIGHT_SHIFT  &kp DELETE                                              &sl 4
             >;
