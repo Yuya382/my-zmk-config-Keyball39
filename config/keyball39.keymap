@@ -52,7 +52,7 @@
        v_scroll: v_scroll {
             compatible = "zmk,behavior-sensor-rotate";
             label = "V_SCROLL";
-            #sensor-binding-cells = <0>;
+            #sensor-binding-cells = <2>;    // <0> から <2> に変更
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
         };
     };  
