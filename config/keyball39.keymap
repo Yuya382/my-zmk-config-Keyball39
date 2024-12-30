@@ -5,6 +5,7 @@
 #define MOUSE   4
 #define SCROLL  5
 #define SNIPE   6
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 20
 
 #include <behaviors/mouse_keys.dtsi>
 #include <dt-bindings/zmk/mouse.h>
@@ -52,7 +53,7 @@
             compatible = "zmk,behavior-sensor-rotate";
             label = "V_SCROLL";
             #sensor-binding-cells = <0>;
-            bindings = <&mwh SCROLL_UP>, <&mwh SCROLL_DOWN>;
+            bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
         };
     };  
 
