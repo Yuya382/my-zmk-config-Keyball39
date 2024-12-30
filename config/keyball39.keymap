@@ -92,6 +92,8 @@
 &kp Z             &kp X         &kp C         &kp V         &kp B                                &kp N          &kp M  &kp COMMA  &kp PERIOD  &kp SLASH
 &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_WIN  &lt 3 ESCAPE  &lt 2 SPACE  &lt 1 SPACE  &kp ENTER  &kp BACKSPACE                                &Hiragana
             >;
+
+            sensor-bindings = <&scroll_mode SCROLL_UP SCROLL_DOWN>;  // 垂直スクロール
         };
 
         number_and_mouse_layer {
