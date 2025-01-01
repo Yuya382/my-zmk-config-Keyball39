@@ -108,8 +108,8 @@
             label = "SYM";
             bindings = <
 &kp ESC  &none  &none  &none   &none                   &none   &maru_kakko  &kp MINUS  &kp EQUAL  &none
-&kp TAB  &none  &none  &none   &none                   &none   &dai_kakko   &kp BSLH   &kp GRAVE  &kp DELETE
-&kp TAB  &none  &none  &none   &none                   &none   &nami_kakko  &kp LBKT   &kp RBKT   &none
+&kp TAB  &none  &none  &none   &trans                  &none   &dai_kakko   &kp BSLH   &kp GRAVE  &kp DELETE
+&kp TAB  &none  &none  &none   &trans                  &none   &nami_kakko  &kp LBKT   &kp RBKT   &none
 &none    &none  &none  &trans  &trans  &trans  &trans  &trans                                     &none
             >;
         };
