@@ -103,20 +103,20 @@
         number_and_mouse_layer {
             label = "N&M";
             bindings = <
-&kp NUMBER_1    &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4     &kp NUMBER_5                  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &mo 0                         &mkp MB4      &mkp LCLK     &none         &mkp RCLK     &mkp MCLK
-&none           &none           &none         &none            &mo 0                         &mkp MB5      &none         &trans        &trans        &none
-&trans          &trans          &trans        &trans           &trans        &trans  &trans  &kp DELETE                                              &sl 4
+&kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
+&kp LEFT_SHIFT  &none         &none         &none         &none                         &mkp MB4      &mkp LCLK     &none         &mkp RCLK     &kp RSHFT
+&kp LEFT_SHIFT  &none         &none         &none         &none                         &mkp MB5      &none         &trans        &trans        &kp RSHFT
+&trans          &trans        &trans        &trans        &trans        &trans  &trans  &kp DELETE                                              &sl 4
             >;
         };
 
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp ESC  &none  &none  &none   &none                   &maru_kakko  &none  &kp MINUS  &kp EQUAL  &none
-&kp TAB  &none  &none  &none   &none                   &dai_kakko   &none  &kp BSLH   &kp GRAVE  &kp DELETE
-&kp TAB  &none  &none  &none   &none                   &nami_kakko  &none  &kp LBKT   &kp RBKT   &none
-&none    &none  &none  &trans  &trans  &trans  &trans  &trans                                    &none
+&kp ESC   &none  &none  &none   &none                   &maru_kakko  &none     &kp MINUS  &kp EQUAL  &none
+&kp TAB   &none  &none  &none   &none                   &dai_kakko   &kp SEMI  &kp APOS   &kp BSLH   &kp RSHFT
+&kp TAB   &none  &none  &none   &none                   &nami_kakko  &none     &kp LBKT   &kp RBKT   &kp RSHFT
+&kp BSPC  &none  &none  &trans  &trans  &trans  &trans  &trans                                       &none
             >;
         };
 
