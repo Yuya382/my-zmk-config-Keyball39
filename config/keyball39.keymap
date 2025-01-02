@@ -104,8 +104,8 @@
             label = "N&M";
             bindings = <
 &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp LEFT_SHIFT  &none         &none         &none         &none                                       &mkp MB4      &mkp LCLK     &none         &mkp RCLK     &kp RSHFT
-&kp LEFT_SHIFT  &none         &none         &none         &none                                       &mkp MB5      &none         &trans        &trans        &kp RSHFT
+&kp LEFT_SHIFT  &mkp RCLK     &none         &mkp LCLK     &mkp MB4                                    &mkp MB4      &mkp LCLK     &none         &mkp RCLK     &kp RSHFT
+&kp LEFT_SHIFT  &none         &none         &none         &mkp MB5                                    &mkp MB5      &none         &trans        &trans        &kp RSHFT
 &trans          &trans        &trans        &lt 3 ESCAPE  &mt LEFT_SHIFT SPACE  &kp LEFT_WIN  &trans  &kp DELETE                                              &sl 4
             >;
         };
