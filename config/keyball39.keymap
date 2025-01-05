@@ -120,10 +120,10 @@
         symbol_layer {
             label = "SYM";
             bindings = <
-&kp ESC   &none  &none  &none         &none                                       &maru_kakko  &none     &kp MINUS  &kp EQUAL  &none
-&kp TAB   &none  &none  &none         &none                                       &dai_kakko   &kp SEMI  &kp APOS   &kp BSLH   &kp RSHFT
-&kp TAB   &none  &none  &none         &none                                       &nami_kakko  &none     &kp LBKT   &kp RBKT   &kp RSHFT
-&kp BSPC  &none  &none  &lt 3 ESCAPE  &mt LEFT_SHIFT SPACE  &kp LEFT_WIN  &trans  &trans                                       &none
+&kp ESC           &none         &none  &none         &none                                       &maru_kakko  &none     &kp MINUS  &kp EQUAL  &none
+&kp TAB           &none         &none  &none         &none                                       &dai_kakko   &kp SEMI  &kp APOS   &kp BSLH   &kp RSHFT
+&kp TAB           &none         &none  &none         &none                                       &nami_kakko  &none     &kp LBKT   &kp RBKT   &kp RSHFT
+&kp LEFT_CONTROL  &kp LEFT_ALT  &none  &lt 3 ESCAPE  &mt LEFT_SHIFT SPACE  &kp LEFT_WIN  &trans  &trans                                       &none
             >;
         };
 
