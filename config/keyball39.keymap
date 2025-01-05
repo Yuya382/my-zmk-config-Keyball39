@@ -89,7 +89,7 @@
         PrintScreen: Printscreen {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RC(LS(N5))>;
+            bindings = <&kp LS(RG(N5))>;
             label = "PRINTSCREEN";
         };
     };
