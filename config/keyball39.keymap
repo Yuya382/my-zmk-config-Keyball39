@@ -11,6 +11,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
 
 &lt {
     tapping-term-ms = <240>;
@@ -120,7 +121,7 @@
             label = "N&M";
             bindings = <
 &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                                   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0
-&kp LEFT_SHIFT  &mkp RCLK     &none         &mkp LCLK     &mkp MB4                                       &mkp MB4      &mkp LCLK     &none         &mkp RCLK     &kp RSHFT
+&kp LEFT_SHIFT  &mkp RCLK     &none         &mkp LCLK     &mkp MB4                                       &mkp MB4      &mkp LCLK     &mkp RCLK     &trans        &kp RSHFT
 &kp LEFT_SHIFT  &none         &none         &none         &mkp MB5                                       &mkp MB5      &none         &trans        &trans        &kp RSHFT
 &trans          &trans        &trans        &lt 3 ESCAPE  &kp LEFT_WIN  &mt LEFT_SHIFT SPACE  &kp SPACE  &kp ENTER                                               &sl 4
             >;
@@ -139,10 +140,10 @@
         function_layer {
             label = "FUN";
             bindings = <
-&kp F1  &kp F2   &kp F3   &kp F4   &none                   &PrintScreen  &none  &none           &kp UP_ARROW     &kp LC(SPACE)
-&kp F5  &kp F6   &kp F7   &kp F8   &trans                  &none         &none  &kp LEFT_ARROW  &kp RIGHT_ARROW  &none
-&kp F9  &kp F10  &kp F11  &kp F12  &trans                  &none         &none  &kp DOWN_ARROW  &kp DOWN_ARROW   &none
-&trans  &trans   &trans   &trans   &trans  &trans  &trans  &trans                                                &trans
+&kp F1  &kp F2   &kp F3   &kp F4   &none                          &PrintScreen  &none  &none           &kp UP_ARROW     &kp LC(SPACE)
+&kp F5  &kp F6   &kp F7   &kp F8   &trans                         &none         &none  &kp LEFT_ARROW  &kp RIGHT_ARROW  &none
+&kp F9  &kp F10  &kp F11  &kp F12  &trans                         &none         &none  &kp DOWN_ARROW  &kp DOWN_ARROW   &none
+&trans  &trans   &trans   &trans   &trans  &trans  &kp BACKSPACE  &trans                                                &trans
             >;
         };
 
